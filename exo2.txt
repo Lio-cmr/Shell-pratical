@@ -1,0 +1,263 @@
+    1  su aimssn
+    2  sudo passwd students-asn38 
+    3  echo "hello, world"
+    4  git clone https://github.com/gabayae/friendly-shell-lesson.git shell-lesson
+    5  pwd
+    6  ls
+    7  ls-R
+    8  whoami
+    9  ls
+   10  whoami
+   11  ls
+   12  tree
+   13  ls
+   14  cd telechargements
+   15  ls
+   16  cd Téléchargements/
+   17  ls
+   18  cd ..
+   19  cd Téléchargements/
+   20  cd ..
+   21  mkdir Menko
+   22  cd Téléchargements/
+   23  mkdir Menko
+   24  mkdir Mathematical-logic
+   25  mkdir Images
+   26  mkdir Colle
+   27  mldir Colle
+   28  rmdir Colle
+   29  touch exemple
+   30  rm exemple
+   31  cd ..
+   32  ls
+   33  cd Téléchargements/
+   34  mkdir D1
+   35  mkdir D2
+   36  mkdir D3
+   37  cd D2
+   38  touch F1
+   39  touch F2
+   40  touch F3
+   41  cd ..
+   42  cd D2
+   43  rm F1
+   44  rm F2
+   45  touch F2
+   46  touch F1.txt
+   47  cd F1.txt
+   48  gedit F1.txt
+   49  history
+   50  echo"hello, world"
+   51  echo "hello, world"
+   52  ls
+   53  cd Vidéos
+   54  cd ..
+   55  cd Téléchargements/
+   56  cp
+   57  cp --help
+   58  cp lionel.jpg/home/Téléchargements
+   59  ls
+   60  cd ..
+   61  ls
+   62  cd Téléchargements/
+   63  cp lionel.jpg/home/Téléchargements/Images
+   64  cp lionel.jpg /home/Téléchargements/Images
+   65  python3
+   66  mkdir python-try
+   67  cd python-try
+   68  touch first-python.py
+   69  gedit first-python.py
+   70  pwd
+   71  python3
+   72  git --help
+   73  mkdir simplestats
+   74  cd simplestats
+   75  cd ..
+   76  ls
+   77  cd simplestats
+   78  git init
+   79  ls -a
+   80  -A
+   81  ls -A
+   82  cd .git
+   83  ls -a
+   84  ls -A
+   85  nano description
+   86  gedit description
+   87  cd ..
+   88  git status
+   89  touch REAME.md
+   90  git status
+   91  git add README.md
+   92  git add
+   93  ls
+   94  ls -l
+   95  ls -L
+   96  l -d
+   97  help
+   98  clear
+   99  mkrdir Assigment Lio_doc Matos Fichier1 Fichier2
+  100  ls
+  101  mkdir Assigment Lio_doc Mathos Lait Men
+  102  cp Lio_doc Mathos Lait Men > Assigment
+  103  pwd
+  104  cp -r Lio_doc Mathos Lait Men Assigment
+  105  cd Assigment
+  106  ls
+  107  cp -i Lio_doc Mathos Lait Men Assigment
+  108  ls /
+  109  ls /home
+  110  ls /etc
+  111  nano hots
+  112  ls /etc
+  113  ls /
+  114  ls /bin
+  115  ls /bin/
+  116  mkdir F6
+  117  cp -r F6 Assigment
+  118  cd F6
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd ..
+  123  mkdir F6
+  124  mv -r Lio_doc Mathos Lait Men F6
+  125  ls
+  126  mv -b Lio_doc Mathos Lait Men
+  127  mv -b Lio_doc Mathos Lait Men F6
+  128  cd Assigment
+  129  ls
+  130  python3
+  131  jupyter notebook
+  132  ls
+  133  cd unix
+  134  ls
+  135  cd data
+  136  ls
+  137  cd ..
+  138  mv foo2.txt /home/students-asn38/unix/data/new
+  139  mv foo2.txt /home/students-asn38/unix/data/new/
+  140  cd data
+  141  ls
+  142  mv foo2.txt /home/students-asn38/unix/data/new
+  143  cd new
+  144  cd ..
+  145  cd new
+  146  ls
+  147  mv foo2.txt /home/students-asn38/unix/data/new/
+  148  mv foo2.txt /home/students-asn38/unix/new
+  149  cd ..
+  150  cd data
+  151  ls
+  152  mv foo2.txt /home/students-asn38/unix/new
+  153  cd new
+  154  cd ..
+  155  cd new
+  156  ls
+  157  mkdir unix
+  158  # 0)Create a directory called unix and a file named foo.txt that will be saved in
+  159  ls
+  160  # 0) create a directory called unix and a file named foo.txt
+  161  mkdir unix
+  162  cd unix
+  163  touch foo.txt
+  164  ls
+  165  # a) copy the file 
+  166  cp foo.txt foo-copy.txt
+  167  ls
+  168  # b) Rename the file
+  169  mv foo-copy.txt foo2.txt
+  170  ls
+  171  # c) create a subdirectory name data
+  172  mkdir data
+  173  ls
+  174  cd data
+  175  cd ..
+  176  mv foo2.txt /home/unix/data
+  177  mv foo2.txt /home/students-asn38/unix/data
+  178  cd data
+  179  ls
+  180  cd ..
+  181  # d) create a new subdirectory
+  182  mkdir new
+  183  ls
+  184  # e) move the file foo2
+  185  cd data
+  186  cd ..
+  187  cd data
+  188  mv foo2.txt /home/students-asn38/unix/new
+  189  cd new
+  190  cd ..
+  191  cd new
+  192  ls
+  193  # f)move the file and change the name
+  194  mv foo2.txt /home/students-asn38/unix
+  195  ls
+  196  cd ..
+  197  ls
+  198  mv foo2.txt /home/students-asn38/new
+  199  cd new
+  200  ls
+  201  #0 create unix and file
+  202  mkdir unix
+  203  cd unix
+  204  touch foo.txt
+  205  #a) copy the file
+  206  cp foo.txt foo-copy.txt
+  207  ls
+  208  #b) inside create a subdirectory
+  209  #b) raname 
+  210  mv foo-copy.txt foo2.txt
+  211  ls
+  212  #c) inside create a subdictionary
+  213  mkdir data
+  214  cd data
+  215  ls
+  216  cd ..
+  217  ls
+  218  mv foo2.txt /home/students-asn38/unix/data
+  219  cd data
+  220  ls
+  221  cd ..
+  222  #d) create a new subdirectory
+  223  mkdir new
+  224  ls
+  225  #e)Move the file in data 
+  226  cd new
+  227  cd ..
+  228  cd data
+  229  mv foo.2txt /home/students-asn38/unix/new
+  230  mv foo2.txt /home/students-asn38/unix/new
+  231  cd new
+  232  cd ..
+  233  cd new
+  234  ls
+  235  #f) move the file 
+  236  mv foo2.txt /home/students-asn38/unix/foo-old.txt
+  237  cd ..
+  238  ls
+  239  # g) delete the file 
+  240  rm foo-old.txt
+  241  ls
+  242  #h) Remove the new
+  243  rmdir new
+  244  ls
+  245  history>>exo1.tx
+  246  cd ..
+  247  ls
+  248  # 1) the option that list all files is ls -al
+  249  ls -al
+  250  # with "ls" alone I can't see the files that are in a
+  251  # b) what is the option to "ls" list all files in all subdirectories
+  252  #the option is "ls -R"
+  253  ls -R
+  254  # c) the command that count lines in a file is "wc -l"
+  255  #the command that count words in a file is "wc -w"
+  256  # the command that count characters in a file is "w -m"
+  257  wc -l exo1.txt
+  258  ls
+  259  cd unix
+  260  wc -l exo1.tx
+  261  wc -w exo1.tx
+  262  wc -m exo1.tx
+  263  history>>exo2.txt
